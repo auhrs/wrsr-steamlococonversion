@@ -1,10 +1,15 @@
 # WRSR Steam Locomotive Conversion
-This script converts steam locomotives available on the Steam workshop that are currently using diesel as fuel to use coal if you have the Early Start DLC installed. If you do not have Early Start installed, the script will not continue.
+This script converts steam locomotives available on the Steam workshop that are currently using diesel as fuel to use coal. This script should only be used if you have Early Start DLC installed.
 
 This script searches for known steam locomotive which do not specify coal as their fuel type. It does not search for assets marked as broken by their authors.
 
+## How to use
+1) Download this script by clicking **Code** > **Download ZIP**.
+2) Unzip the content of the file to your Steam workshop folder (usually found in C:\Program Files (x86)\Steam\steamapps\workshop\content\784150)
+3) Double-click **steamassets.bat** and follow the on-screen instructions.
+
 ## How does the script work?
-This script will search for known steam locomotive assets using diesel as fuel write the necessary changes to your assets. This script does not make any backups. Please make your own backups or verify file integrity if you wish to restore the original filse.
+This script will search for known steam locomotive assets (by ID) using diesel as fuel write the necessary changes to your assets. This script does not make any backups. Please make your own backups or verify file integrity if you wish to restore the original files.
 
 If an asset is updated after you have run this script and its fuel type remains diesel, the changes made by this script will overwritten. In that case, you must rerun this script to change fuel type to coal.
 
